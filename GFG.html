@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geeks For Geeks</title>
+</head>
+<body>
+    <h1>HTML INTRODUCTION</h1>
+    <p><b>HTML</b>stands for <b>Hyper Text Markup Language,</b> which is the core language used to structure content on the web. It organizes text, images, links, and media using tags and elements that browsers can interpret. As of 2025, over 95% of websites rely on HTML alongside CSS and JavaScript, making it a fundamental tool in modern web development.</p>
+     <ul>
+    <li>It is a markup language, not a programming language.
+    This means it annotates text to define how it is structured and displayed by <a href="https://www.geeksforgeeks.org/blogs/web-browser-a-complete-overview/" target="_self">web browsers</a>.</li>
+
+    <li>It is a <b>static</b>language, meaning it does not inherently provide interactive features.
+        It can be combined with <a href="https://www.geeksforgeeks.org/css/css-tutorial/"target="_self">CSS</a> for styling and JavaScript <a href="https://www.geeksforgeeks.org/javascript/javascript-tutorial/"target="_self">JavaScript</a> interactivity.</li>
+  </ul>
+  <p>In a nutshell, HTML is all about<b> organizing and displaying information </b>on a webpage. We can think of it as the <b>bones</b> or <b>structure </b>of a webpage.</p>
+  <h3>Basic HTML Code Example</h3>
+
+<center><img src="output.png" alt="code" width="70%" height="300"></center>
+<p><strong>Output</strong></p>
+<center><img src="https://media.geeksforgeeks.org/wp-content/uploads/20250408131626705390/Screenshot-2025-04-08-131602.png" alt="output" width="50%" height="120"></center>
+<h2>HTML Page Structure</h2>
+<p>The basic structure of an HTML page is shown below. It contains the essential building-block elements (i.e. doctype declaration, HTML, head, title, and body elements) upon which all web pages are created.</p>
+<center><img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220401160946/HTML-Basic-Format-768x534.png" alt="HTML page structure" width="50%" height="500"></center>
+<ul>
+    <li>
+         <code>&lt;<strong> <a href="https://www.geeksforgeeks.org/html/html-doctypes/"target="_self">!DOCTYPE html</a> &gt;</strong></code> - This is the document type declaration, not a tag. It declares that the document is an HTML5 document.    </li>
+        <li> <code>&lt;<strong> <a href="https://www.geeksforgeeks.org/html/html-html-tag/"target="_self">html</a> &gt;</strong></code> - This is called the HTML root element. All other elements are contained within it.</li>
+         <li><code>&lt;<strong> <a href="https://www.geeksforgeeks.org/html/html-head-tag/"target="_self">head</a> &gt;</strong></code> - The head tag contains the "behind the scenes" elements for a webpage. Elements within the head aren't visible on the front end of a webpage. Typical elements inside the head include:</li>
+         <ul>
+                     <li><code>&lt;<strong> <a href="https://www.geeksforgeeks.org/html/html-title-tag/"target="_self">title</a> &gt;</strong></code>: Defines the title displayed on the browser tab.</li>
+                    <li><code>&lt;<strong> <a href="https://www.geeksforgeeks.org/html/html-meta-tag/"target="_self">meta</a> &gt;</strong></code> : Provides information like the character set or viewport settings.</li>
+                    <li><code>&lt;<strong> <a href="https://www.geeksforgeeks.org/html/html-link-tag/"target="_self">link</a> &gt;</strong></code> : Links external stylesheets or resources.</li>
+                    <li><code>&lt;<strong> <a href="https://www.geeksforgeeks.org/html/html-style-tag/"target="_self">style</a> &gt;</strong></code> : Embeds internal CSS styles </li>
+                    <li><code>&lt;<strong> <a href="https://www.geeksforgeeks.org/html/html-script-tag/"target="_self">script</a> &gt;</strong></code> : Embeds JavaScript for functionality.</li>
+         </ul>
+     <li><code>&lt;<strong> <a href="https://www.geeksforgeeks.org/html/html-title-tag/"target="_self">title</a> &gt;</strong></code> - The title is what is displayed on the top of your browser when you visit a website and contains the title of the webpage that you are viewing.</li>
+    <li><code>&lt;<strong> <a href="https://www.geeksforgeeks.org/html/html-heading/"target="_self">h2</a> &gt;</strong></code> - The <code>&lt;h2&gt;</code> tag is a second-level heading tag.</li>
+    <li><code>&lt;<strong> <a href="https://www.geeksforgeeks.org/html/html-p-tag/"target="_self">p2</a> &gt;</strong></code> - The <code>&lt;p2&gt;</code> tag represents a paragraph of text.</li>
+    <li><code>&lt;<strong> <a href="https://www.geeksforgeeks.org/html/html-body-tag/"target="_self">body</a> &gt;</strong></code> - The The body tag is used to enclose all the visible content of a webpage. In other words, the body content is what the browser will show on the front end.</li>
+
+
+
+</ul>
+
+<p>An HTML document can be created using an <a href="http://geeksforgeeks.org/html/html-editors/" target="_self">HTML Editors</a>  Save the text file using the <b>".html"</b> or<b> ".htm" </b> Once saved as an HTML document, the file can be opened as a webpage in the browser.
+<p><i><b>Note: </b>/built-in text editors are Notepad <b>(Windows)</b> and <b>TextEdit (MacOS)</b>. Other advanced text editors include <b>Sublime Text</b>, <b>Visual Studio Code</b>, etc.</i></p>
+<h2>HTML Elements and HTML Tag</h2>
+<p><a href="https://www.geeksforgeeks.org/html/html-html-tag/" target="_self">HTML</a> Elements and HTML Tags are related but distinct. An HTML element is the complete structure, including the opening tag, content (if any), and the closing tag (if applicable).</p>
+<p>On the other hand, A tag is the actual keyword or name enclosed in angle brackets (< >) that tells the browser what kind of content to expect.</p>
+<center><img src="https://media.geeksforgeeks.org/wp-content/uploads/20250408124306294228/Screenshot-2025-04-08-124248.png" alt="flowchart" width="50%" height="400"></center>
+<center><table  border="1" cellspacing="0" cellpadding="10" width="50%">
+    <tr>
+        <th>Tag</th>
+        <th>Description</th>
+
+</tr>
+<tr align="center">
+    <td><code>&lt;<a href="https://www.geeksforgeeks.org/html/html-tutorial/"target="_self">html</a>&gt;</code></td>
+    <td>The root element of an HTML document</td>
+</tr>
+<tr align="center">
+    <td><code>&lt;<a href="https://www.geeksforgeeks.org/html/html-head-tag/" target="_self">head</a>&gt;</code></td>
+    <td>Contains meta-information about the webpage</td>
+
+</tr>
+<tr align="center">
+    <td><code>&lt;<a href="https://www.geeksforgeeks.org/html/html-body-tag/" target="_self">body</a>&gt;</code></td>
+    <td>Contains the visible content of the webpage</td>
+</tr>
+
+<tr align="center">
+    <td><code>&lt;<a href="https://www.geeksforgeeks.org/html/html-h1-to-h6-tag/" target="_self">h1 to h6</a>&gt;</code></td>
+    <td>Headings of various levels (h1 being the largest)</td>
+</tr>
+
+<tr align="center">
+    <td><code>&lt;<a href="https://www.geeksforgeeks.org/html/html-p-tag/" target="_self">p1</a>&gt;</code></td>
+    <td>Defines a paragraph</td>
+</tr>
+
+<tr align="center">
+    <td><code>&lt;<a href="https://www.geeksforgeeks.org/html/html-a-tag/" target="_self">a</a>&gt;</code></td>
+    <td>Defines a hyperlink</td>
+</tr>
+
+<tr align="center">
+    <td><code>&lt;<a href="https://www.geeksforgeeks.org/html/html-img-tag/" target="_self">img</a>&gt;</code></td>
+    <td>Embed an image</td>
+</tr>
+
+<tr align="center">
+    <td><code>&lt;<a href="https://www.geeksforgeeks.org/html/html-ul-tag/" target="_self">ul</a>&gt;</code></td>
+    <td>Defines an unordered list</td>
+</tr>
+
+<tr align="center">
+    <td><code>&lt;<a href="https://www.geeksforgeeks.org/html/html-ol-tag/" target="_self">ol</a>&gt;</code></td>
+    <td>Defines an ordered list</td>
+</tr>
+
+<tr align="center">
+    <td><code>&lt;<a href="https://www.geeksforgeeks.org/html/html-li-tag/" target="_self">li</a>&gt;</code></td>
+    <td>Defines a list item</td>
+</tr>
+
+<tr align="center">
+    <td><code>&lt;<a href="https://www.geeksforgeeks.org/html/html-tables/" target="_self">table</a>&gt;</code></td>
+    <td>Defines a table</td>
+</tr>
+
+<tr align="center">
+    <td><code>&lt;<a href="https://www.geeksforgeeks.org/html/html-forms/" target="_self">form</a>&gt;</code></td>
+    <td>Defines an HTML form</td>
+</tr>
+
+</table></center>
+<center><p><i>To learn more about it follow the article <a href="https://www.geeksforgeeks.org/html/html-tags-a-to-z-list/" target="_self">HTML Tags</a></i></p></center>
+
+<h2>HTML Attributes</h2>
+<p>Attributes provide additional information about an element. They are placed inside the opening tag and are written as name="value". Common attributes include class, id <u><a href="https://www.geeksforgeeks.org/html/html-href-attribute/"target="_self">href</a></u>and <u><a href="https://www.geeksforgeeks.org/html/html-src-attribute/" target="_self" >src</a></u></p>
+<h3>Example :</h3>
+<center><p><code>&lt;a href="https://www.example.com/>"Visit Example</a>&gt;</code></p></center>
+<ul>
+    <li>
+href is an attribute of the <a> tag that defines the URL of the link.
+    </li>
+</ul>
+    <p><i>Note : To learn more about it follow the article- <a href="https://www.geeksforgeeks.org/html/html-attributes/" target="_self">HTML Attributes</a></i></p>
+<h2>Web Browser</h2>
+<p>Unlike other programming languages, HTML does not show output on the any compiler.<a href="https://www.geeksforgeeks.org/blogs/web-browser-a-complete-overview/"target="_self">Web browsers</a> is an compiler which show the results of an your HTML code.</p>
+<p>It reads HTML files and determines how to show content with the help of HTML tags. Any web browser (<u><a href="https://www.geeksforgeeks.org/techtips/apple-safari-browser/" target="_self">Safari,</a></u><u> <a href="https://www.geeksforgeeks.org/techtips/mozilla-firefox-browser/" target="_self">Mozilla Firefox</a></u>etc.) can be used to open a <strong>. HTML</strong> file and view the results.</p>
+<center><img src="https://media.geeksforgeeks.org/wp-content/uploads/20241122150935140993/Screenshot-2024-11-22-150453.png" alt="web browser" width="50%" height="500"></img></center>
+<h2>Why Learn HTML?</h2>
+<p>Here are<strong>5 common reasons to learn HTML:</strong></p>
+<ol>
+    <li><strong>Build Websites:</strong> HTML is the basic building block for creating any <u><a href="https://www.geeksforgeeks.org/blogs/what-is-a-website/" target="_self">website.</a></u>Learning HTML can help you pursue a career in web development.</li>
+    <li><strong>Customixe Content:</strong> Allows you to edit or tweak<u><a href="https://www.geeksforgeeks.org/computer-networks/web-pages/" target="_self">web pages,</a></u> emails, or templates to fit your needs.</li>
+    <li><strong>Understand how the web works:</strong> This helps you grasp how the internet works and how web pages are structured.</li>
+    <li><strong>Employment Opportunities: </strong>According to the Bureau of Labor Statistics, projects that employment for web developers will grow 16% between 2022 and 2032, which is much faster than the average across all occupations.</li>
+    <li><strong>Learn Easily:</strong>  HTML is beginner-friendly, making it a great first step into the world of coding and technology.</li>
+</ol>
+<h2>Applications of HTML</h2>
+<ul>
+    <li><strong>Web Development:</strong>HTML is the backbone of every webpage. It structures the content and integrates multimedia, hyperlinks, and more.</li>
+    <li><strong><u><a href="https://www.geeksforgeeks.org/websites-apps/what-is-web-app/" target="_self"> web App</a></u></strong>HTML, in combination with CSS and JavaScript, powers complex web applications (e.g.,<u><a href="https://www.geeksforgeeks.org/websites-apps/what-is-google-docs/" target="_self">Google Docs,</a></u><u> <a href="https://www.geeksforgeeks.org/websites-apps/what-is-trello-and-how-to-use-it/" target="_self">Trello</a></u>).</li>
+    <li><strong>Emails:</strong> HTML emails use table-based layouts and embedded media to deliver rich, interactive content.</li>
+    <li><strong><u><a href="" target="_self">Mobile App Development:</a></u></strong> HTML5 is used with frameworks like PhoneGap to build mobile apps for iOS and Android.</li>
+
+</ul>
+<h2>Limitations of Html</h2>
+<ul>
+    <li><strong>No Logic or Functionality:</strong> HTML cannot handle complex logic, interactivity, or dynamic content on its own. It requires JavaScript for such tasks.</li>
+    <li><strong><u><a href="https://www.geeksforgeeks.org/techtips/search-engine-optimization-seo-basics/" target="_self">SEO</a></u> Limitations:</strong> While HTML provides structure, it’s not enough by itself for search engine optimization (SEO). Proper metadata and content structuring, as well as external SEO practices, are necessary.</li>
+    <li><strong>Limited Styles: </strong> While HTML can handle basic styles via the style attribute, it is typically complemented by CSS for complex styling and layout.</li>
+</ul>
+<h2>HTML5: Enhancements and New Features</h2>
+
+        <strong>
+            <u>
+                <a href="https://www.geeksforgeeks.org/html/html5-introduction/" target="_self">HTML Introduced</a>
+
+            </u>
+        </strong>
+        several powerful features that improve the structure and functionality of web pages, including:
+    
+<ul>
+    <li>
+        <u>
+            <strong>
+                <a href="https://www.geeksforgeeks.org/html/html5-semantics/" target="_self">Semantics:</a>
+            </strong>
+        </u>New tags like <code>&lt;article&gt;,</code> &lt;footer&gt;</code >,</code> &lt;header&gt;</code >, and</code> &lt;section&gt;</code > to improve the meaning of the content.
+
+    </li>
+    <li>
+        <u>
+            <strong><a href="https://www.geeksforgeeks.org/computer-science-fundamentals/what-is-multimedia/" target="_self">Multi Media:</a></strong>
+        </u>
+        <u>
+            <code>&lt;<a href="https://www.geeksforgeeks.org/html/html-audio/" target="_self">audio</a>&gt;</code>
+        </u> and 
+        <u>
+            <code>
+                &lt;<a href="https://www.geeksforgeeks.org/html/html5-video/" target="_self">video</a>&gt;
+            </code>
+        </u> tags for embedding audio and video without plugins.
+    </li>
+    <li>
+        <u>
+            <strong>
+                <a href="https://www.geeksforgeeks.org/software-testing/what-is-an-api/" target="_self">APIS:</a>
+                
+            </strong>
+        </u>
+        New APIs like Geolocation, Web Storage, and Canvas allow for more dynamic content and interactive websites.
+    </li>
+</ul>
+<h2>History of HTML</h2>
+<p>Currently, we are using <a href="https://www.geeksforgeeks.org/html/html5-introduction/" target="_self" >HTML 5</a>, which is the latest and most advanced version of HTML.</p>
+<ul>
+    <li>
+        HTML was initially created by <strong>Tim Berners-Lee</strong> in 1991 as a way to share and structure documents on the web.
+    </li>
+    <li>
+        The first-ever version was <strong>HTML 1.0</strong>, a basic and limited version. However, the first standardized version,<strong>HTML 2.0</strong> , was published in 1995, laying the foundation for web development as we know it today.
+    </li>
+   <center><img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220718103358/HTML-Released-year-11.png" alt="history" width="50%" height="200"></img></center>
+</ul>
+<h2>Conclusion
+</h2>
+<p>
+    In conclusion, mastering HTML is a fundamental step in your <u><a href="https://www.geeksforgeeks.org/web-tech/web-development/" target="_self">web Development</a></u> journey. This guide serves as a comprehensive resource for understanding HTML, from the basics to more advanced topics. Remember, HTML is more than just a markup language - it’s a powerful tool for creating engaging, accessible, and SEO-friendly websites.
+</p>
+<p>
+To learn more about HTML, visit the <u><a href="https://www.geeksforgeeks.org/html/html-tutorial/" target="_self">HTML Tutorial</a></u> page.
+</p>
+<p>
+    <strong>Note: </strong>If you want to Master The Art of Web Development, Check out our <u><a href="https://www.geeksforgeeks.org/courses/mern-full-stack-development-classroom"target="_self">Full Development</a></u> Class room.
+</p>
+</body>
+</html>
